@@ -1,0 +1,17 @@
+
+print("1 is addition, 2 is subtraction, 3 is multiplication, 4 is division ")
+a = int(input("enter you number "))
+x = int(input("enter 1,2,3,4 "))
+b = int(input("enter ypur second number "))
+
+
+match x:
+ case 1:
+     print(a+b) 
+ case 2:
+     print(a-b)
+ case 3:
+      print (a*b)
+ case 4:
+        print (a/b)
+ 
